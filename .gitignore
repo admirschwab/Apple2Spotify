@@ -1,0 +1,23 @@
+# ── Zugangsdaten und persönliche Daten ──
+config.py
+spotify_tokens.json
+sync_state.json
+match_cache.json
+backups/
+
+# ── Laufzeitdateien ──
+sync.lock
+*.log
+*.tmp
+
+# ── Python ──
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# ── Editor und Betriebssystem ──
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
